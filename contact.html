@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evolve Code - desenvolvimento de sites e sistemas</title>
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/Contact.css">
+    <link rel="stylesheet" href="styles/About.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,500&family=Noto+Sans+TC:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a id="logo" href="../index.html"><img class="logo" src="imagens/logo.png" alt="logo evolve code"></a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+    
+            <ul class="nav-list">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="about.html">Sobre</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class='contact_page'>
+
+            <div class="div_office">
+              <img src="imagens/office.png" alt="" />
+            </div>
+          
+            <div  class="contact">
+              <div class="container_contact">
+                <div>
+                  <h1 class="title">ENTRE EM CONTATO</h1>
+                  <p class="description_title">Nossa equipe está pronta pra te atender.</p>
+                </div>
+                
+                <div class="container_divs">
+          
+                  <div class="container_texts">
+                    <h2 class="sub_title">Contate-Nos</h2>
+                    <p><strong>nosso endereço de correspondência é:</strong></p>
+                    <p>Rua: Embiruçu, 738</p>
+                    <p>São Paulo, SP</p>
+                    <p>Cep: 03644-000</p>
+                    <div class="icons_contact">
+                      <a target='_blank' href="https://api.whatsapp.com/send/?phone=5511966531619&text=&type=phone_number&app_absent=0" class="fa-brands fa-whatsapp ico"></a>
+                      <a target='_blank' href="https://www.instagram.com/evolvecode.oficial/" class="fa-brands fa-instagram ico"></a>
+                      <a target='_blank' href="mailto:bruno@evolvecode.com.br" class="fa fa-envelope ico"></a>
+                    </div>
+                  </div>
+          
+                  <div>
+                    <form class="forms" target="_blank" action="https://formsubmit.co/bruno@evolvecode.com.br" method="POST">
+                      <div class="form">
+                        <input type="text" name="name" required placeholder="Nome e sobrenome  *" />
+                        <input type="email" name="email" required placeholder="Email corporativo  *" />
+                        <input type="tel" name="tel" required placeholder="Telefone  *" />
+                        <input id="desc-pj" type="text" name="msg" placeholder="Descreva o seu projeto  *" />
+                        <button type="submit">Solicitar contato</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </main>
+
+    <footer>
+      <div class='container_footer'>
+          <div id='div_one'>
+              <img src="imagens/logo-white.png"/>
+              <p>Evolve Code® - Desenvolvimento de sites, sistemas e consultoria digital. </p>
+              <a target='_blank' href="https://api.whatsapp.com/send/?phone=5511966531619&text=&type=phone_number&app_absent=0"><button>Entrar em contato</button></a>
+          </div>
+          <div id='div_two'>
+              <h1>Mapa do site</h1>
+              <div class='map'>
+                  <a href='index.html'>
+                      Inicio
+                  </a>
+                  <a href='about.html'>
+                      Sobre
+                  </a>
+                  <a href='contact.html'>
+                      Contato
+                  </a>
+              </div>
+          </div>
+          <div id='div_three'>
+              <h1>Contato</h1>
+              <div>
+                  <div class='div_icons'>
+                      <a target='_blank' href="https://api.whatsapp.com/send/?phone=5511966531619&text=&type=phone_number&app_absent=0" class="fa-brands fa-whatsapp ico"></a>
+                      <a target='_blank' href="https://api.whatsapp.com/send/?phone=5511966531619&text=&type=phone_number&app_absent=0">11 96653-1619</a>
+                  </div>
+                  <div class='div_icons'>
+                      <a target='_blank' href="https://www.instagram.com/evolvecode.oficial/" class="fa-brands fa-instagram ico"></a>
+                      <a target='_blank' href="https://www.instagram.com/evolvecode.oficial/">@evolvecode.oficial</a>
+                  </div>
+                  <div class='div_icons'>
+                      <a target='_blank' href="mailto:bruno@evolvecode.com.br" class="fa fa-envelope ico"></a>
+                      <a target='_blank' href="mailto:bruno@evolvecode.com.br">bruno@evolvecode.com.br</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <p>Copyright © 2024. Todos direitos reservados.</p>
+  </footer>
+  
+<script src="scripts/Mobile-navbar.js"></script>
+
+</body>
+</html>

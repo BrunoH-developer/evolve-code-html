@@ -1,0 +1,123 @@
+:root{
+    --preto: #454545;
+    --preto-title: #464444;
+    --roxo: #673DE6;
+    --white-body: #F5F5F9;
+}
+
+footer{
+    background-color: var(--roxo);
+    padding: 20px 0px 7px 0px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Sans TC', sans-serif;
+    margin-bottom: -2px;
+    width: 100vw;
+}
+
+.container_footer{
+    width: 70vw;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin: 40px 0px 40px 0px;
+    align-items: start;
+    justify-content: center;
+}
+
+#div_two{
+    display: grid;
+    justify-content: center;
+}
+
+#div_three{
+    display: grid;
+    justify-content: right;
+}
+
+.map{
+    display: flex;
+    flex-direction: column;
+}
+
+
+footer button{
+    background-color: white;
+    color: var(--roxo);
+    margin-top: 20px;
+    padding: 10px 30px 10px 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+footer h1{
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+footer a{
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+#div_two a, #div_three a {
+    padding: 3px 0px 3px 0px;
+}
+
+.div_icons{
+    display: flex;
+    align-items: center;
+}
+
+.div_icons .ico{
+    margin-right: 8px;
+    cursor: pointer;
+    font-weight: 100;
+    font-size: 15px;
+    margin-bottom: -3px;
+}
+
+.div_icons img:hover{
+    opacity: 0.9;
+}
+
+
+
+footer p{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+@media (width < 1300px){
+.container_footer{
+    width: 90vw;
+}
+}
+
+@media (width < 768px){
+.container_footer{
+    grid-template-columns: 100%;
+    margin-top: 20px;
+}
+
+#div_two{
+    justify-content: left;
+    margin-top: 30px;
+}
+
+#div_three{
+    justify-content: left;
+    margin-top: 30px;
+}
+}
+
+@media (width < 310px){
+   footer p {
+    font-size: 13px;
+} 
+}
+

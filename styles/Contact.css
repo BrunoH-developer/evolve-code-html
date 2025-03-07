@@ -1,0 +1,13 @@
+.contact_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact_page .title {
+    color: var(--roxo);
+}
+html {
+    scroll-behavior: smooth;
+  }
